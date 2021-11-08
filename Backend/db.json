@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Caneta Bic Preta",
+            "Preço": 5.89
+        },
+        {
+            "id": 2,
+            "name": "Caderno League of legends",
+            "Preço": 49.90
+        },
+        {
+            "id": 3,
+            "name": "Borracha",
+            "Preço": 3.90
+        }
+    ]
+}
