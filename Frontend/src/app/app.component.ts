@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `
+  templateUrl: 'app.component.html',
+/*  template: `
     <!--The content below is only a placeholder and can be replaced.-->
     <div style="text-align:center" class="content">
       <h1>
@@ -24,9 +25,8 @@ import { Component } from '@angular/core';
       </li>
     </ul>
     <router-outlet></router-outlet>
-  `,
-  styles: []
+  `,*/
 })
 export class AppComponent {
-  title = 'Frontend';
+   nome = 'Maria';
 }
