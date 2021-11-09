@@ -1,0 +1,14 @@
+.corpo {
+    margin: 13px 20px 10px 10px
+}
+
+.corpo .subtitle {
+    font-size: 1,1rem;
+
+}
+
+.corpo .title {
+    font-size: 1.6rem;
+    font-weight: 200;
+    line-height: 1.2;
+}
