@@ -18,6 +18,10 @@ import { ContentHomeComponent } from './Views/content-home/content-home.componen
 import { ProductCrudComponent } from './Views/product-crud/product-crud.component';
 import { AtributosDirective } from './directives/atributos.directive';
 import { ForDirective } from './directives/for.directive';
+import { ProductCreateComponent } from './components/product/product-create/product-create.component';
+
+import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -29,6 +33,7 @@ import { ForDirective } from './directives/for.directive';
     ProductCrudComponent,
     AtributosDirective,
     ForDirective,
+    ProductCreateComponent,
 
   ],
   imports: [
@@ -39,6 +44,9 @@ import { ForDirective } from './directives/for.directive';
     MatSidenavModule,
     MatListModule,
     MatCardModule,
+    MatButtonModule,
+    MatSnackBarModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
