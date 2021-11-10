@@ -5,3 +5,12 @@
 .btnCancelaNovoProduto {
     padding: 0px 10px 0px 10px;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* mat-card-title {
+    Color: red;
+}*/

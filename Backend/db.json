@@ -1,19 +1,29 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Caneta Bic Preta",
-            "Preço": 5.89
-        },
-        {
-            "id": 2,
-            "name": "Caderno League of legends",
-            "Preço": 49.90
-        },
-        {
-            "id": 3,
-            "name": "Borracha",
-            "Preço": 3.90
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta Bic Preta",
+      "Preço": 5.89
+    },
+    {
+      "id": 2,
+      "name": "Caderno League of legends",
+      "Preço": 49.9
+    },
+    {
+      "id": 3,
+      "name": "Borracha",
+      "Preço": 3.9
+    },
+    {
+      "name": "Biblia ",
+      "price": "49.90",
+      "id": 4
+    },
+    {
+      "name": "Lapiz",
+      "price": "9.90",
+      "id": 5
+    }
+  ]
 }
