@@ -1,3 +1,13 @@
-<button mat-raised-button class="btnNovoProduto" (click)="navigateToProductCreate()">
-    Novo Produto
-</button>
+<mat-card class="corpo mat-elevation-z3">
+    <mat-card-title class="title" appAtributos> Produtos </mat-card-title>
+    <mat-card-subtitle class="subtitle">
+        Para Adicionar um novo produto, clique no botão abaixo
+    </mat-card-subtitle>
+
+    <button mat-raised-button class="btnNovoProduto" (click)="navigateToProductCreate()" color="primary">
+        Novo Produto
+    </button>
+
+</mat-card>
+
+<app-product-read></app-product-read>

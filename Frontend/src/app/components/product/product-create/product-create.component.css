@@ -11,6 +11,7 @@ form {
     flex-direction: column;
 }
 
-/* mat-card-title {
-    Color: red;
-}*/
+mat-form-field {
+    width: 30%;
+}
+ 
